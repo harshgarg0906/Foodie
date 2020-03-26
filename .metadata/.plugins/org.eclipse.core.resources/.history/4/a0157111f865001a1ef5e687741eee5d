@@ -1,0 +1,7 @@
+spring.application.name = zuulserver
+server.port= 8765
+eureka.client.register-with-eureka= true
+eureka.client.fetch-registry = true	
+
+zuul.routes.foodie-web-app.path = /**
+zuul.routes.foodie-web-app.serviceId = foodie-web-app

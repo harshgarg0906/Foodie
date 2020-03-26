@@ -1,0 +1,11 @@
+mat-toolbar{
+    background-color: #030853;
+    color:white;
+}
+
+i{
+    cursor: pointer;
+}
+.mat-toolbar-row{
+    height: 90px;
+}

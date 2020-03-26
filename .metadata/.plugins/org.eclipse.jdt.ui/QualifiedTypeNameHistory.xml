@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+<fullyQualifiedTypeName name="com.example.demo.service.AuthenticationService"/>
+<fullyQualifiedTypeName name="com.example.demo.filter.JwtFilter"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.zuul.EnableZuulProxy"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.EnableEurekaClient"/>
+<fullyQualifiedTypeName name="com.example.demo.repo.UserRepo"/>
+<fullyQualifiedTypeName name="com.example.demo.model.User"/>
+<fullyQualifiedTypeName name="com.example.demo.model.User.UserRole"/>
+<fullyQualifiedTypeName name="com.example.demo.util.JwtUtil"/>
+<fullyQualifiedTypeName name="com.example.demo.util.CookieUtil"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+</qualifiedTypeNameHistroy>

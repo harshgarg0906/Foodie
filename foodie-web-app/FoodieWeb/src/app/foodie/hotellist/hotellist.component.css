@@ -1,0 +1,22 @@
+
+.cards {
+    width: 300px;
+}
+
+.mat-card-image {
+    margin: 0 -16px 16px -16px;
+    max-width: 120px;
+}
+img.mat-card-image{
+    margin-left: 50px;
+}
+.mat-card{
+    min-width: 600px;
+    min-height: 50px;
+    max-height: 600px;
+    max-width: 50px;
+}
+
+#hotel::ng-deep .mat-form-field-underline{
+    display: none;
+}

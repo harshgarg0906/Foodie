@@ -1,0 +1,43 @@
+<form [formGroup]="searchForm" (ngSubmit)="onSubmit()">
+
+    <div fxLayout="row" class="alignitem">
+        <mat-form-field >
+          <mat-label>City</mat-label>
+          <input class="city-input" matInput (input)="onInput($event)" formControlName="city">
+        </mat-form-field>
+
+
+        <mat-form-field>
+            <mat-label>Cuisine</mat-label>
+            <select matNativeControl  name="cuisine" (input)="onSelect($event)" formControlName="cuisine">
+              <option value="" selected></option>
+              <option *ngFor="let cuisine of cuisines" [value]="cuisine.cuisine.cuisine_name">
+                {{cuisine.cuisine.cuisine_name}}
+              </option>
+            </select>
+          </mat-form-field>
+
+
+          <mat-form-field>
+            <mat-label>Establishment</mat-label>
+            <select matNativeControl  name="establishments" formControlName="establishment">
+              <option value="" selected></option>
+              <option *ngFor="let establishment of establishments" [value]="establishment.establishment.name">
+                {{establishment.establishment.name}}
+              </option>
+            </select>
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Collection</mat-label>
+            <select matNativeControl  name="collections" formControlName="colllection">
+              <option value="" selected></option>
+              <option *ngFor="let collection of collections" [value]="collection.collection.title">
+                {{collection.collection.title}}
+              </option>
+            </select>
+          </mat-form-field>
+
+          <button mat-raised-button color="primary" type="submit">Search</button>
+    </div>       
+</form>

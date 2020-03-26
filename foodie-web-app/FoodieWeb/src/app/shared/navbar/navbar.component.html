@@ -1,0 +1,19 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+    <div fxLayout="row" fxLayoutGap="1200px">
+     <!-- <i class="material-icons"> dns</i>
+     <p fxFlex>Foodie</p>
+     <i class="material-icons" (click)="onClick()">perm_contact_calendar</i> -->
+        <div fxLayout="row" fxLayoutGap="100px">
+              <i class="material-icons" (click)="onClose()">dns</i>
+              <span>Foodie</span>
+        </div>
+         <div fxLayout="row" fxLayoutGap="50px">
+              <i class="material-icons" routerLink="/auth">perm_contact_calendar</i> 
+              <i class="material-icons" routerLink="/"> home</i>
+              <i class="material-icons" routerLink="/dashboard">dashboard</i>
+         </div>
+    
+    </div>
+    </mat-toolbar-row>
+</mat-toolbar>
